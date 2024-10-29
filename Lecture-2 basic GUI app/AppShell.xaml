@@ -9,11 +9,11 @@
     Title="Lecture_2_basic_GUI_app">
 
     <TabBar>
-        <Tab Title="Number-Tab" Icon="codepen.png">
-            <ShellContent ContentTemplate="{DataTemplate Pages:NumberPage}"/>
-        </Tab>
         <Tab Title="Shopping-Tab" Icon="bag.png">
             <ShellContent ContentTemplate="{DataTemplate Pages:ShoppingPage}"/>
+        </Tab>
+        <Tab Title="Number-Tab" Icon="codepen.png">
+            <ShellContent ContentTemplate="{DataTemplate Pages:NumberPage}"/>
         </Tab>
     </TabBar>
      
